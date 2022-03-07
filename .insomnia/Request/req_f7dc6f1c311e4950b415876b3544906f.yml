@@ -1,0 +1,34 @@
+_id: req_f7dc6f1c311e4950b415876b3544906f
+type: Request
+parentId: fld_402bdb76b7b1408ab8f8140462e82376
+modified: 1646014953593
+created: 1645888817088
+url: http://localhost:3333/usuarios/create
+name: PostUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name":"valeria",
+    	"username":"vale1223",
+    	"email":"v@gmail.com",
+    	"password":"alo",
+    	"birthday":"2020-12-10"
+    }
+parameters: []
+headers:
+  - id: pair_413c44464d044ab7a1a6abbf0f8916cf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1645888817088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

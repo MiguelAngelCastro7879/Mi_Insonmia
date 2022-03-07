@@ -1,0 +1,29 @@
+_id: req_d172765453b94a3a8ce7bd11d547e52b
+type: Request
+parentId: fld_1b354854495f42198d86c072f59f615f
+modified: 1646628826568
+created: 1646628718917
+url: localhost:3333/idiomas
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Chino"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc0fcd8178d0442c9d6ad6cc7b92bb06
+authentication: {}
+metaSortKey: -1646500730529
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

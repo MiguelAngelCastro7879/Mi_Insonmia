@@ -1,0 +1,33 @@
+_id: req_aaaedf9bb75c475e9dcf2d5d68e9b3d5
+type: Request
+parentId: fld_c920c64f5bcb44f1b67ac6b2ca5e37ce
+modified: 1645888988554
+created: 1644647783781
+url: http://localhost:8000/api/personajes
+name: SupersRead
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"miguel",
+    	"username":"maik@gmail.com",
+    	"email":"jiji",
+    	"password":"alo",
+    	"birthday":"2020-12-10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1667f3d2cc4a4cbfbf765144d8a7a097
+authentication: {}
+metaSortKey: -1645268285438.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

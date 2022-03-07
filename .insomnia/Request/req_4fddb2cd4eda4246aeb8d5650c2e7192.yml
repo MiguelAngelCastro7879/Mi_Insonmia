@@ -1,0 +1,34 @@
+_id: req_4fddb2cd4eda4246aeb8d5650c2e7192
+type: Request
+parentId: fld_4ff6039e5f4e4cca922709b87685f5aa
+modified: 1646025212458
+created: 1646014973124
+url: http://localhost:3333/usuario
+name: PostUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name":"basurto",
+    	"username":"basurtoMike",
+    	"email":"cacotas@gmail.com",
+    	"password":"secret",
+      "password_confirmation": "secret"
+    }
+parameters: []
+headers:
+  - id: pair_413c44464d044ab7a1a6abbf0f8916cf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1645888817088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

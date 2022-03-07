@@ -1,0 +1,29 @@
+_id: req_46bfced3a3524e1482bb5dd7b90a5ce9
+type: Request
+parentId: fld_1b354854495f42198d86c072f59f615f
+modified: 1646628812962
+created: 1646628718964
+url: localhost:3333/idiomas/1
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Inglés"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf1f6fc6234846328be5ed97414f6cdb
+authentication: {}
+metaSortKey: -1646500730379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

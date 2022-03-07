@@ -1,0 +1,32 @@
+_id: req_8a2a3948dfa94d57ae4ef3b9c97a4f41
+type: Request
+parentId: fld_cf22ef6146a64a0992e2b66178697391
+modified: 1646628126295
+created: 1646626254971
+url: localhost:3333/productoras
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Marvel Entertainment",
+    	"presidente":"Kevin Feige",
+    	"propietario":"The Walt Disney Company",
+    	"sitio_web":"http://www.marvel.com/"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc0fcd8178d0442c9d6ad6cc7b92bb06
+authentication: {}
+metaSortKey: -1646500730529
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

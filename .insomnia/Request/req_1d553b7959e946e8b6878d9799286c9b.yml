@@ -1,0 +1,29 @@
+_id: req_1d553b7959e946e8b6878d9799286c9b
+type: Request
+parentId: fld_e613c25a99f74dfcbd5c9f2e6c1389a8
+modified: 1646630433811
+created: 1646630338498
+url: localhost:3333/categorias/1
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Comedia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf1f6fc6234846328be5ed97414f6cdb
+authentication: {}
+metaSortKey: -1646500730379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

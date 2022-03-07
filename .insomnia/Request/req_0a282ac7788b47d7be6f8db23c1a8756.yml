@@ -1,0 +1,29 @@
+_id: req_0a282ac7788b47d7be6f8db23c1a8756
+type: Request
+parentId: fld_1a4a451f72fa4f9eb518674d542de172
+modified: 1646612847436
+created: 1646610601051
+url: localhost:3333/status
+name: Act/Desact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"mikeangel7879@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_477e4cbf78764fa6938882dac16dd0db
+authentication: {}
+metaSortKey: -1646347751981.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

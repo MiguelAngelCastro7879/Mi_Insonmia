@@ -1,0 +1,37 @@
+_id: req_d71c4dc58c8d4754932e0f2ad4adf597
+type: Request
+parentId: fld_3a9d2e94cae54f55bdef312287729531
+modified: 1639111913885
+created: 1634064772836
+url: localhost:8000/api/auth/user
+name: login
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_fae22cdba7364ae1a38369edc2973a9f
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_9a26cec944ac43f0992c662c14e20814
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
+  - id: pair_ad3557e3b1034e82a89a75f515cdad48
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMzc2OTRkOTU5NDI3MjJjMDFmZmRhZGZiNWFhNTE5MjNhYjI4OTkyMjIxNmMwM2RmNjhmNjk4OWE4OWE2YTE0YmE0YWY5MGM5YjUxYTdiOGUiLCJpYXQiOjE2MzQwNjUwMTUuNjQ0OTQ5LCJuYmYiOjE2MzQwNjUwMTUuNjQ0OTcyLCJleHAiOjE2NjU2MDEwMTUuMzYyNTIzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.HorIAh4hU8L7SoHP8vqV8-oPpdmD9__yg9v3wAwfmI4UhKMunhfiiZXVTuvN1N6DeqUDgCderGzp3lLR9CS2ewOz8psbkIXLtD4Ys7umF6ctIfoH-1j0FJSNLJmPFcjZHFAZ1jF3AEimWctuisRl0CFTxWKmFnfR8YPUAxn39AUT22ar9zWqlEoFhChvRI75RExKbcP3cxWXt5TT0i-1VGri9v49qcZkOMksv9MV3iIrOLqDfzXsbwnuSzunvq85aeYjAQbwkcMrJKq7SOfoottvKD3K1Gkpqi1COfJtwcPYy-eKCI-wrPAb5o1J9rFs0mAfkk5BfzmPz16d-Xlwb_hzK28ZVlhqFXFuwWAHLg99-udYvfGmIAdFDUtW86G1zcUgeqFrERR-AGoqXPsNRkKRdnlDaXwndBskl4UMV8XQ7jM_eq2IxwnIO3FgkxBbSwGtuUzZLq7Jq1BU03tir2IEmi8aGwWYVbAv8K66cRyTvqZt4J7MRcBjvHgWwyKdbhjq-bZRe7TBVu1cafLKKyWvkhweaazc-3VaGNthoIyp4OlIGsEJPjejaxToEGkJ8HFWksnOoIV4XmBL6QRJiuJ1zOsX4vKDqmbLEOqz6rjVfzQjz1cdQqNF93dF_a3Ne0pIAqeOapOdqcatZ1JmBsXrT2XG8BpRxx2gsX3HeGs
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1634064772836
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

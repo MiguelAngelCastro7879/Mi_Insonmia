@@ -1,0 +1,29 @@
+_id: req_c9f2f184aa944f0290e6e29c777cc326
+type: Request
+parentId: fld_402bdb76b7b1408ab8f8140462e82376
+modified: 1645925868439
+created: 1645923630930
+url: http://localhost:3333/usuarios/update/16
+name: UpdateUser
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Valeria"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5f7867734ab2472688d2135f96edfc6e
+authentication: {}
+metaSortKey: -1645345851894.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

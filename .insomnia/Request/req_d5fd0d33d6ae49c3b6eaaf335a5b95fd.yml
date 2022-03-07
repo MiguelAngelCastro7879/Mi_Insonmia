@@ -1,0 +1,31 @@
+_id: req_d5fd0d33d6ae49c3b6eaaf335a5b95fd
+type: Request
+parentId: fld_c443b201c3d34d67a846fa7c2fe2a5d0
+modified: 1646509869739
+created: 1646507451959
+url: localhost:3333/personas/4
+name: UpdatePersona
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Fernanda",
+    	"f_nacimiento":"2002-09-01",
+    	"nacionalidad":"mexicano"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf1f6fc6234846328be5ed97414f6cdb
+authentication: {}
+metaSortKey: -1646500730379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

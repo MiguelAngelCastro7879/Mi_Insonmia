@@ -1,0 +1,36 @@
+_id: req_4d7350faec484d51a65f607d10914483
+type: Request
+parentId: fld_3a9d2e94cae54f55bdef312287729531
+modified: 1637630528950
+created: 1634064638859
+url: localhost:8000/api/auth/signup
+name: Signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "name":"Juan Arturo",
+    "email":"janito@gmail.com",
+    "password":"123456789a"
+    }
+parameters: []
+headers:
+  - id: pair_c63c36bfb38a43c5b0a39d3aa411c2e2
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_b49aa48a0e924a11a3d9482306c83a99
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
+authentication: {}
+metaSortKey: -1634064638859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

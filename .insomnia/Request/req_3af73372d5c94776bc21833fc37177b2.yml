@@ -1,0 +1,31 @@
+_id: req_3af73372d5c94776bc21833fc37177b2
+type: Request
+parentId: fld_c443b201c3d34d67a846fa7c2fe2a5d0
+modified: 1646509862721
+created: 1646500730529
+url: localhost:3333/personas
+name: CreatePersona
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Miguel angel castro",
+    	"f_nacimiento":"2002-09-01",
+    	"nacionalidad":"mexicano"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc0fcd8178d0442c9d6ad6cc7b92bb06
+authentication: {}
+metaSortKey: -1646500730529
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_7c21768a98b544da85775c6862dd9b1e
+type: Request
+parentId: fld_3a9d2e94cae54f55bdef312287729531
+modified: 1637632892029
+created: 1637630548561
+url: localhost:8000/api/guzzle
+name: Passport
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_474a963221094292beef8eb94ad70250
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_a407f968c8ad42e7b0ca4dec2dfcd4cd
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
+  - id: pair_85db8935be65475ba25529d42de3d2d5
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjlmY2NiYTk2NDc3ZTlmMWZjODRiMDJjMjdjMTA5Y2IxZDQyNjIyNGE4YjMyYzIzYjA0OWI4NDQ0ZTk2NzFiNGM1MDAzNWRkNWI1NDM3ZDgiLCJpYXQiOjE2MzQwNTgwNTguMzE3OTQ4LCJuYmYiOjE2MzQwNTgwNTguMzE3OTYzLCJleHAiOjE2NjU1OTQwNTguMjk3ODExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.EzygPJL7v8HGE7j4b4AsUv33DR4pJmSpGe1xHQLOCdFaV6axQn-x5tW86psHtWf5tSprTRf6Y5mBY0TrutyweSjtzWdMXu-wDKJ1HgcWZCqP2VAYzGXkKzup3DukkKkhSuozaRDrwOWpvhtjL6uDolA4pTJbRn814sAZdC1jNm4JgUH7GlSMhGyhPvDpExRDngFg-BvnaOBFt46Jts1yjSxoeA_sTI4hBRlU2DZBHkhftTmMryrvoP6A427249M-_wNVTs1dggsxnAFjWjylbW1HKcf-yq6ULWuzoyhOcU3SWchHl-uH33Tqzpu-I3dU_WMxxc3QQvC-MMFRaBBgZfd29fXm4io0JnZRYym9pjSWVHYNahBjZTxFyJFFxoHqoLWUjFBjqSFJttuvyqWUfUq6DO12M4t33M1RTaKiCWKYPoTt4KzhqhmpNlSDgwfEbHdQqF92MsIH5Q6OgLcxFitJKCT4cbqT682IwVniDlnKhdEmuDPqpO2Txi_hZI_WwqBNHUFoDy61w3eecfZblCJoDVRNUtOkv8TCPP-UqJRcy5NXKyb3inW8TVGKBNG8SCeFIcX9_uw5iLBreXduhzl_NjvDd1lDDd_HTrF8_GZan3AV9PLyn4A4i8zLWCqcNr05QTodAjYYWSeExwZPi7gFtPEPz1VYJsPpJYc-wKk
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1634064672353.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

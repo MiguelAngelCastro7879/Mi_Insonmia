@@ -1,0 +1,35 @@
+_id: req_eb79da3c00a54910be946383e98b1be4
+type: Request
+parentId: fld_c920c64f5bcb44f1b67ac6b2ca5e37ce
+modified: 1645888802823
+created: 1644647821833
+url: http://localhost:8000/api/personajes/5
+name: SupersUpdate
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"personaje":"Holaaaaaaaaaa",
+    		"nombre": "Mr. Terence Glover",
+    		"estado": "Villano",
+    		"poder": "Super Fuerza",
+    		"editorial": "DC comics",
+    		"raza": "humano",
+    		"genero": "mujer"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_85f3cab4aa5947e9b44248bd76b1af64
+authentication: {}
+metaSortKey: -1645268285401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
