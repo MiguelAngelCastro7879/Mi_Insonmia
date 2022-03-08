@@ -1,9 +1,9 @@
 _id: req_572c428589dc415caa4c823f026fe8aa
 type: Request
 parentId: fld_cf22ef6146a64a0992e2b66178697391
-modified: 1646627005137
+modified: 1646703874219
 created: 1646626255010
-url: localhost:3333/productoras/2
+url: localhost:3333/productoras/3
 name: Get1
 description: ""
 method: GET
