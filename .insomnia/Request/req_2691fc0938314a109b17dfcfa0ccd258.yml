@@ -1,9 +1,9 @@
-_id: req_265e3511ade44db1984f3afb4bc16c97
+_id: req_2691fc0938314a109b17dfcfa0ccd258
 type: Request
-parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646961872431
-created: 1646509880051
-url: localhost:3333/usuarios/1
+parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
+modified: 1646791431409
+created: 1646788674491
+url: localhost:3333/actores/1
 name: GetUser
 description: ""
 method: GET

@@ -1,17 +1,19 @@
-_id: req_8ef77819bd254d2db570d9a2dbbc43aa
+_id: req_5f5d9bd99e5e4b769f4c99fcd63b91e1
 type: Request
-parentId: fld_e613c25a99f74dfcbd5c9f2e6c1389a8
-modified: 1646962378274
-created: 1646630338455
-url: localhost:3333/categorias
+parentId: fld_4822ef4927444034af78ec1f07799100
+modified: 1646962390602
+created: 1646702066801
+url: localhost:3333/clasificaciones
 name: Create
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"nombre":"Comedia"
+    	"nombre":"D",
+    	"descripcion":"Películas para adultos, con sexo explícito, lenguaje procaz o alto grado de violencia.",
+    	"edad_minima":18
     }
 parameters: []
 headers:

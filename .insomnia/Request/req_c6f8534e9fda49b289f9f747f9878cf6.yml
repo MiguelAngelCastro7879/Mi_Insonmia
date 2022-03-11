@@ -1,0 +1,31 @@
+_id: req_c6f8534e9fda49b289f9f747f9878cf6
+type: Request
+parentId: fld_4822ef4927444034af78ec1f07799100
+modified: 1646706572781
+created: 1646702066853
+url: localhost:3333/clasificaciones/1
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"nombre":"AA",
+    	"descripcion":"Películas para todo público que tengan además atractivo infantil y sean comprensibles para niños menores de siete años de edad. Películas para todo público que tengan además atractivo infantil y sean comprensibles para niños menores de siete años de edad.",
+    	"edad_minima":0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf1f6fc6234846328be5ed97414f6cdb
+authentication: {}
+metaSortKey: -1646500730379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

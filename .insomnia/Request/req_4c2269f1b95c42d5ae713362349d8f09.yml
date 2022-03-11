@@ -1,7 +1,7 @@
 _id: req_4c2269f1b95c42d5ae713362349d8f09
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646706182127
+modified: 1646964419846
 created: 1646509880018
 url: localhost:3333/usuarios
 name: CreateUsers
@@ -15,7 +15,7 @@ body:
     	"f_nacimiento":"2002-09-01",
     	"nacionalidad":"mexicano",
     	"username":"miguel7879",
-    	"email":"mikeangel7879@gmail.com",
+    	"email":"migueangel7879@gmail.com",
     	"password":"secret",
     	"password_confirmation":"secret"
     }

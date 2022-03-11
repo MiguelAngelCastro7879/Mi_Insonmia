@@ -1,7 +1,7 @@
 _id: req_0a282ac7788b47d7be6f8db23c1a8756
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646706296040
+modified: 1646961005611
 created: 1646610601051
 url: localhost:3333/status
 name: Act/Desact
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"mikeangel7879@gmail.com"
+    	"email":"migueangel7879@gmail.com"
     }
 parameters: []
 headers:

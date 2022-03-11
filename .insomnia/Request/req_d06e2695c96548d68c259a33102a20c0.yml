@@ -1,10 +1,10 @@
-_id: req_265e3511ade44db1984f3afb4bc16c97
+_id: req_d06e2695c96548d68c259a33102a20c0
 type: Request
-parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646961872431
-created: 1646509880051
-url: localhost:3333/usuarios/1
-name: GetUser
+parentId: fld_72ccba624f284ddebbf92a26a92459ea
+modified: 1646966265859
+created: 1646712949886
+url: localhost:3333/peliculas/1
+name: Get1
 description: ""
 method: GET
 body: {}

@@ -1,0 +1,33 @@
+_id: req_afe07493488a4f9b945bbf9386a821a4
+type: Request
+parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
+modified: 1646791571956
+created: 1646788674504
+url: localhost:3333/actores/3
+name: UpdateUser
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"Scarlett Johanson",
+    	"f_nacimiento":"1984-09-01",
+    	"nacionalidad":"estadounidense",
+    	"inicio_carrera":"2019-09-01",
+    	"final_carrera":"2022-09-01"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf1f6fc6234846328be5ed97414f6cdb
+authentication: {}
+metaSortKey: -1646500730379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

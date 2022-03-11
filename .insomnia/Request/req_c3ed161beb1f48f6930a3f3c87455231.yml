@@ -1,17 +1,20 @@
-_id: req_8ef77819bd254d2db570d9a2dbbc43aa
+_id: req_c3ed161beb1f48f6930a3f3c87455231
 type: Request
-parentId: fld_e613c25a99f74dfcbd5c9f2e6c1389a8
-modified: 1646962378274
-created: 1646630338455
-url: localhost:3333/categorias
-name: Create
+parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
+modified: 1646962447792
+created: 1646788674456
+url: localhost:3333/actores
+name: CreateUsers
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nombre":"Comedia"
+    	"nombre":"Omar Chaparro",
+    	"f_nacimiento":"1975-09-01",
+    	"nacionalidad":"mexicano",
+    	"inicio_carrera":"1999-09-01"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_8b2ae7077676481da17ea153b8b8ac59
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646536842061
+modified: 1646961043858
 created: 1646533626939
 url: localhost:3333/logout
 name: Logout
@@ -9,9 +9,13 @@ description: ""
 method: POST
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_dadefd12eaf44e1eb91eefeedb05d38c
+    name: Authorization
+    value: Bearer Mw.e7G6JtfRAqffe0YF6mYbMrAyBAJsYFaqUilKSfqd8Up-dugS0fWMImmVgqA_
+    description: ""
 authentication: {}
-metaSortKey: -1646194773683.5
+metaSortKey: -1646424241130.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

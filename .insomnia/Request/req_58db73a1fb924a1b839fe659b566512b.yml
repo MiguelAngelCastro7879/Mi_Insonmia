@@ -1,17 +1,18 @@
-_id: req_8ef77819bd254d2db570d9a2dbbc43aa
+_id: req_58db73a1fb924a1b839fe659b566512b
 type: Request
-parentId: fld_e613c25a99f74dfcbd5c9f2e6c1389a8
-modified: 1646962378274
-created: 1646630338455
-url: localhost:3333/categorias
-name: Create
+parentId: fld_72ccba624f284ddebbf92a26a92459ea
+modified: 1646974642943
+created: 1646801116673
+url: localhost:3333/peliculas/1/agregar_actor
+name: AñadirActor
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nombre":"Comedia"
+    	"actor_id":1,
+    	"papel":"El mexicano3"
     }
 parameters: []
 headers:
@@ -19,7 +20,7 @@ headers:
     value: application/json
     id: pair_bc0fcd8178d0442c9d6ad6cc7b92bb06
 authentication: {}
-metaSortKey: -1646500730529
+metaSortKey: -1646500730279
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
