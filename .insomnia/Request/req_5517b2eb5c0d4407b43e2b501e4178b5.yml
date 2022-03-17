@@ -1,15 +1,19 @@
 _id: req_5517b2eb5c0d4407b43e2b501e4178b5
 type: Request
 parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
-modified: 1646791617227
+modified: 1647151267978
 created: 1646788674530
-url: localhost:3333/actores/2
+url: localhost:3333/actores/5
 name: DeleteUser
 description: ""
 method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: Authorization
+    value: bearer MjU.w2-cYnLWUuriTJLarJSmfAkPhKXhxK5xzvDdtqe2WIqQAWfdWo9ZFyJjG1fg
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1646500730329
 isPrivate: false

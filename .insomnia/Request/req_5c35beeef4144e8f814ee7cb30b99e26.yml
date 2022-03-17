@@ -1,7 +1,7 @@
 _id: req_5c35beeef4144e8f814ee7cb30b99e26
 type: Request
 parentId: fld_4822ef4927444034af78ec1f07799100
-modified: 1646706529758
+modified: 1647137265675
 created: 1646702066864
 url: localhost:3333/clasificaciones/1
 name: Delete
@@ -9,7 +9,9 @@ description: ""
 method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: Authorization
+    value: bearer MTc.CU8dvT_pXSZBBPlM-mpalPVg0BAmDWu1iilTumP7E6BDTn3yj4gAf6cStQwO
 authentication: {}
 metaSortKey: -1646500730329
 isPrivate: false

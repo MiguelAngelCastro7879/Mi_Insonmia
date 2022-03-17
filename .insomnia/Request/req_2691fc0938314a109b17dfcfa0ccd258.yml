@@ -1,15 +1,19 @@
 _id: req_2691fc0938314a109b17dfcfa0ccd258
 type: Request
 parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
-modified: 1646791431409
+modified: 1647218328683
 created: 1646788674491
-url: localhost:3333/actores/1
+url: localhost:3333/actores/5
 name: GetUser
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: Authorization
+    value: bearer MjU.w2-cYnLWUuriTJLarJSmfAkPhKXhxK5xzvDdtqe2WIqQAWfdWo9ZFyJjG1fg
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1646500730429
 isPrivate: false

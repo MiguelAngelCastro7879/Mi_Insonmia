@@ -1,7 +1,7 @@
 _id: req_0886c7d0d3b148d480424c35b4e50596
 type: Request
 parentId: fld_72ccba624f284ddebbf92a26a92459ea
-modified: 1646970011137
+modified: 1647401720605
 created: 1646712949875
 url: localhost:3333/peliculas
 name: Get
@@ -9,7 +9,11 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: Bearer Mzg.Gq9mg3kx2IdEfs2lEfb48ksrJQJLKHsMwbwbCRLrYhWTLBkhD5kITwA-w952
 authentication: {}
 metaSortKey: -1646500730479
 isPrivate: false

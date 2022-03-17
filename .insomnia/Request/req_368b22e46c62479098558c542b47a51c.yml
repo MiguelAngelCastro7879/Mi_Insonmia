@@ -1,7 +1,7 @@
 _id: req_368b22e46c62479098558c542b47a51c
 type: Request
 parentId: fld_e613c25a99f74dfcbd5c9f2e6c1389a8
-modified: 1646630449236
+modified: 1647137088287
 created: 1646630338513
 url: localhost:3333/categorias/1
 name: Delete
@@ -9,7 +9,9 @@ description: ""
 method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: Authorization
+    value: bearer MTc.CU8dvT_pXSZBBPlM-mpalPVg0BAmDWu1iilTumP7E6BDTn3yj4gAf6cStQwO
 authentication: {}
 metaSortKey: -1646500730329
 isPrivate: false

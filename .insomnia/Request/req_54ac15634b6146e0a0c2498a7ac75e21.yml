@@ -1,15 +1,21 @@
 _id: req_54ac15634b6146e0a0c2498a7ac75e21
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646533691441
+modified: 1647324327080
 created: 1646533677120
 url: localhost:3333/dashboard
 name: Dashboard
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: Bearer Mzk.t8d2tLlp-p6KqJBiodt8gxtCxcKfuiuRnq_LIbeXZ2UEjTtADhgq7o0n_WBC
 authentication: {}
 metaSortKey: -1646041795385.75
 isPrivate: false

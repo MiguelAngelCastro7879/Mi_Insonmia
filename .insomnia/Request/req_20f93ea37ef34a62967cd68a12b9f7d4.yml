@@ -1,7 +1,7 @@
 _id: req_20f93ea37ef34a62967cd68a12b9f7d4
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646609870693
+modified: 1647243716097
 created: 1646509880067
 url: localhost:3333/usuarios/3
 name: UpdateUser
@@ -23,7 +23,6 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_bf1f6fc6234846328be5ed97414f6cdb
 authentication: {}
 metaSortKey: -1646500730379
 isPrivate: false

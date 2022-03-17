@@ -1,34 +1,29 @@
-_id: req_a83478f394e6443aa8e9602f3df7858e
+_id: req_ce8e1f99bf6649eb96f8aca97db00f1a
 type: Request
 parentId: fld_72ccba624f284ddebbf92a26a92459ea
-modified: 1647225533287
-created: 1646712949860
-url: localhost:3333/peliculas
-name: Create
+modified: 1647218474622
+created: 1647134376016
+url: localhost:3333/peliculas/7/agregar_productora
+name: AñadirProductora
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nombre":"Moana",
-    	"descripcion":"Pelicula para niños de disney",
-    	"duracion":181,
-    	"calificacion":98,
-    	"categoria_id":2,
-    	"clasificacion_id":2
+    	"productora_id":1
     }
 parameters: []
 headers:
   - name: Authorization
     value: bearer
       eyJhbGciOiJSUzI1NiJ9.eyJkYXRhIjp7InVzZXJJZCI6NywidXNlciI6eyJlbWFpbCI6Im1pa2VhbmdlbDc4NzlAZ21haWwuY29tIn19LCJpYXQiOjE2NDcyMTY2ODMsImV4cCI6MTY0NzY0ODY4M30.w4-zPOhk5QL8i0jO2XAzP6BjLCD7Ruaf2RHv-s5xyuhml6Yq_HWVuwInQxJho32tz9jPBgqMReDZkXGblXEco7v-tyDZI7iAbT8VkoP5mpyaU9M4Q1LpE1XXMZH0mNjKyqrv2XEObyXlf5ekqqlFnBGGLXIk0MGfZGTqyadGV5Cnj-Ht1qeo1gC2fK8W7sTQaHnYrIxOKWuVAtAet-oERvpAOUoCZP2Zej9QxHJbrbJa_toJsAx88DkhwA416qjRfYz3KhVlXHewrsC1TKSWerxJ41ORb9f93mTczoUHL_qxqEzZfht5fcnbxu46gfuZfXjUerOGszA_CMSx8mMI59MnhJN53tIkb1TrJ4zPvRTNngnj77dX7skF7-gAZHyzVrXe2N_Z5CnjgEX3sZwg-Bc_4YBPfH8bUAIULQKnOstADIonxTGsfNZaucuxn73jNhbfWMag52XBP0tXkV9rkKnQaU5-dWqmxMzwwfBOtkzEaSPs5uPSi_W4StF_zkLB9aZFAU9bXDG4gX72rqC8cUMGb0vz8KPS1KmHE2gZp5dSBTqndLHgSGEjmL4Ss4eOOJPWmpFXmVCEecLCAvDZ2ZwW6qgE46EWidBf4IxxCJb5umAxhdQKe29CAe2gWg9uIdz56FuF65pWtLc2cfJYxB6XSEqWI3zV39rcaFsoTN4
-    id: pair_d99b680d369c4796bcbe6e292dfd2f6f
+    id: pair_2cb7855f4cfe4f73950c74107431bbc0
   - name: Content-Type
     value: application/json
-    id: pair_44e1217290d34bff8d69f9a6bd9a65f0
+    id: pair_64293383a2524b319f31feda57bb9fdb
 authentication: {}
-metaSortKey: -1646500730529
+metaSortKey: -1646472046848.1719
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

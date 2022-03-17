@@ -1,7 +1,7 @@
 _id: req_8b2ae7077676481da17ea153b8b8ac59
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646961043858
+modified: 1647404578403
 created: 1646533626939
 url: localhost:3333/logout
 name: Logout
@@ -10,10 +10,11 @@ method: POST
 body: {}
 parameters: []
 headers:
-  - id: pair_dadefd12eaf44e1eb91eefeedb05d38c
-    name: Authorization
-    value: Bearer Mw.e7G6JtfRAqffe0YF6mYbMrAyBAJsYFaqUilKSfqd8Up-dugS0fWMImmVgqA_
-    description: ""
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiJ9.eyJkYXRhIjp7ImVtYWlsIjoicGVkcm9hcnR1cm9AZ21haWwuY29tIiwidXNlcklkIjo4fSwiaWF0IjoxNjQ3MjQ0MDU0LCJleHAiOjE2NDc2NzYwNTR9.dR2rUB9gWrNRtMgwPE_Uw1A4XH6Zi5wzCCep1nmFmG80_-3P181GtkNeWGO7xJeS5eqbroWYxsZSC9MiMYn3V7EC8KyuKSczQ07T1zs6s0sy0Ypr-lOEsn5JVV8Hmp8YFdMYOHHvQX2znBYeQ7y5Xi_35QuyG5oMbhZbvUwpHRXQj9UGF7rr6BdsV1DIWLkyZphe-7N85xHjmRDlZVn6d_X7ppScsOSonsCVzkiuYyXa3FvKMzM6B6fEe-4OmTtIF7ozO-9dMYinwhhY12wJYKgIDgOe4y_1cK31wi8yiYgG3mOymUam-rcy47MiGDzV0LeBBS6_czLde0VVjtmuQ3tzxlUBWFBUDUiBdagKfa4-6-6vHElozHOdY6KO_5sxQpo7CeZwp-8kZOEvUM6Ro8bnmxh4_k-gWnxqjPHM2DxPJqPfNP3etZXQDfQTLplyhd-8aIt_1q_pVQ6JEvCnluWH5Wn_nizsAUWVxZ3cDDX-io11XAKtFc4HZ2jCueURPeq9YxLmGbmmruYwAl6G4IUc2BSpaISh0yX17TUe7MYvWm9Ne9JkHJWpfWOM-zePErO7ZURS3dmdQ9lZeCisXd7lrZhN4NQgLurmE2ZZfgo7_tHhe6QJY9hirjvNn4hVbvpwX4-_9UAo1KdWpJIzUXqd2zT6ztKKiRDUwNMYHs0
 authentication: {}
 metaSortKey: -1646424241130.125
 isPrivate: false

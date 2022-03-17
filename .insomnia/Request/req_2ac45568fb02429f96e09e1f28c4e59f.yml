@@ -1,7 +1,7 @@
 _id: req_2ac45568fb02429f96e09e1f28c4e59f
 type: Request
 parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
-modified: 1646789112420
+modified: 1647218341516
 created: 1646788674480
 url: localhost:3333/actores
 name: GetUsers
@@ -9,7 +9,12 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: Authorization
+    value: bearer
+      eyJhbGciOiJSUzI1NiJ9.eyJkYXRhIjp7InVzZXJJZCI6NywidXNlciI6eyJlbWFpbCI6Im1pa2VhbmdlbDc4NzlAZ21haWwuY29tIn19LCJpYXQiOjE2NDcyMTU0ODMsImV4cCI6MTY0NzY0NzQ4M30.dUqXJEwZSEH2-neTwYsI6BJ44Q9TOVFJqz1yRudvbDbq1tdpeQKy_-Yk22JaEQbmPr5psiCq3ufbmtO4iYpk5T5EtUZ_Rp3eI5eFKokPhgC69Xj0ayuRvlrr36QWn9WQs6ZcLfkXNd_4uJ4IRkA60KMMG14RfH8oXopRWrnY198C_YFH4uPi-3Y7NYxuaXIPi0wdFvmqX0z2ks_J3_cac8Ozk065PhQ5ukm1I_GQ5XAiP5ba_J4RuRzZ6OWFADnwjxUssfrtiN5HXg0LsxWfix_iWbERw9d12jzEUhUO9NBxJkDLIqjA6LF4GFcJyd31lKp-Wek_kVR0B6SpttEPhY3HVqHK_ItGg6oaggdyeVtxDoLh7URMkwIEV4yBKzk8qpakRO0tppXL2BKeZ4RmIqSR0sJ3UWC-_l8bmSSEqlM1G0ZKajsV9lSeQ1Ver66kJ6XnDF0_Q6WGjynGUa7Eo44yBWO8myqSfcjM50D5n4DOXHqpYAPdc6CGJXc2Bi7Soa5qRR8zzFshH-E7M5N9p33gZpwwJwmqlIkWPJKasm_1UkWzomvFU-pgapM-_jXxO5be27unKmtX2157ZU1nFKdGAOH__RmEio7yK0i8DlT97OkUZh2w2qJ1DPIDjlr_BoKxLlHNutkDmU3i6gJ-Aj8HWLCwYK4oCkp_K8_sKPE
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1646500730479
 isPrivate: false

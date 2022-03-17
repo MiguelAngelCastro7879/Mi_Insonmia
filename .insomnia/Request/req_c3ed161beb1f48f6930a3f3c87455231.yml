@@ -1,7 +1,7 @@
 _id: req_c3ed161beb1f48f6930a3f3c87455231
 type: Request
 parentId: fld_4451c19e1c4d48a1852b1b2a10d3f9da
-modified: 1646962447792
+modified: 1647150118963
 created: 1646788674456
 url: localhost:3333/actores
 name: CreateUsers
@@ -11,16 +11,17 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nombre":"Omar Chaparro",
+    	"nombre":"Keanu Reaves",
     	"f_nacimiento":"1975-09-01",
-    	"nacionalidad":"mexicano",
+    	"nacionalidad":"americano",
     	"inicio_carrera":"1999-09-01"
     }
 parameters: []
 headers:
+  - name: Authorization
+    value: bearer MjU.w2-cYnLWUuriTJLarJSmfAkPhKXhxK5xzvDdtqe2WIqQAWfdWo9ZFyJjG1fg
   - name: Content-Type
     value: application/json
-    id: pair_bc0fcd8178d0442c9d6ad6cc7b92bb06
 authentication: {}
 metaSortKey: -1646500730529
 isPrivate: false

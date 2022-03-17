@@ -1,15 +1,25 @@
 _id: req_85be593bf1f3491eac6d8c2c7744ba7c
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646531308750
+modified: 1647405709764
 created: 1646509880042
-url: localhost:3333/usuarios
+url: localhost:3333/peliculas/4/agregar_papel
 name: GetUsers
 description: ""
-method: GET
-body: {}
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"actor_id":1,
+    	"papel":"Papel super equis"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Authorization
+    value: bearer MTc.CU8dvT_pXSZBBPlM-mpalPVg0BAmDWu1iilTumP7E6BDTn3yj4gAf6cStQwO
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1646500730479
 isPrivate: false

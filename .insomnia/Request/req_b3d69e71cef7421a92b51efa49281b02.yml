@@ -1,7 +1,7 @@
 _id: req_b3d69e71cef7421a92b51efa49281b02
 type: Request
 parentId: fld_1a4a451f72fa4f9eb518674d542de172
-modified: 1646961085071
+modified: 1647486109610
 created: 1646531345904
 url: localhost:3333/login
 name: Login
@@ -11,14 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"migueangel7879@gmail.com",
+    	"email":"mikeangel7879@gmail.com",
     	"password":"secret"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_477e4cbf78764fa6938882dac16dd0db
 authentication: {}
 metaSortKey: -1646500730279
 isPrivate: false
